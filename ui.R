@@ -4,7 +4,7 @@ library(plotly)
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("Covid-19 statistics"),
+  titlePanel("Covid-19: Government Response Stringency Effectiveness"),
   
   # Sidebar 
   sidebarLayout(
@@ -21,7 +21,8 @@ shinyUI(fluidPage(
                      choices = list("Cumulative" = "Confirmed", 
                                     "Daily" = "Daily"),
                      inline = TRUE,
-                     selected = "Confirmed")
+                     selected = "Confirmed"),
+        checkboxInput("show", "Show Stringency Index", value = F)
     ),
     
     # Main panel
