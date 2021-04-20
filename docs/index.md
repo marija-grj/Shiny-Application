@@ -7,7 +7,7 @@ autosize: true
 Shiny application
 ========================================================
 
-App on COVID-19 Government Response Stringency Effectiveness based on Oxford Covid-19 Government Response Tracker (OxCGRT) dataset.    
+App on COVID-19 Government Response Stringency Effectiveness based on OxCGRT dataset.    
 
 <https://marija-grj.shinyapps.io/shiny-assignment/>
 
@@ -17,9 +17,8 @@ App on COVID-19 Government Response Stringency Effectiveness based on Oxford Cov
 Stringency Index
 ========================================================
 
-Stringency Index is a composite measure of nine of the response metrics and can vary from 0 (no measures) to 100 (the strictest measures). Higher Stringency Index is associated with basic Covid-19 metric improvements: lower number of new cases and deaths.
+Stringency Index is a composite measure of nine of the response metrics and can vary from 0 (no measures) to 100 (the strictest measures). Response metrics included in Stringency Index:
 
-Response metrics included in Stringency Index:
 - School Closures
 - Workplace closing
 - Cancel Public Events
@@ -32,7 +31,7 @@ Response metrics included in Stringency Index:
 App navigation
 ========================================================
 
-The application has four filters that impact both the interactive plot and the plot title.  
+The application has 4 filters that control the interactive plot.  
 
 ### Country
 - Colombia
